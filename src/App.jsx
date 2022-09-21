@@ -1,10 +1,17 @@
-import { useState } from 'react'
+import { Post } from "./Post";
 
-function App() {
-
+ export function App() {
   return (
- <h1>Olá Mundo</h1>
-  )
+    <>
+    <Post
+     author="Raissa Campos" 
+     content="Componente e Props"
+     />
+     <Post
+     author="Marcos Ewbank" 
+     content="Aprendendo Props"
+     />
+     </>
+  ) 
 }
 
-export default App
