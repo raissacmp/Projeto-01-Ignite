@@ -94,11 +94,15 @@
     line-height: 1.4;
     margin-top: 1rem;
   }
-  
+
+  /* esconder o botão */
+
   .commentForm footer {
-    visibility: hidden;
+    visibility: hidden; 
     max-height: 0;
   }
+
+  /* aparecer o botão só quando o input esstiver com focus */
   
   .commentForm:focus-within footer {
     visibility: visible;
@@ -114,7 +118,6 @@
     color: var(--white);
     font-weight: bold;
     cursor: pointer;
-  
     transition: background-color 0.1s;
   }
   
